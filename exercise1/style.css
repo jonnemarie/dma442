@@ -313,7 +313,7 @@ a:hover {
 
 }
 
-@media screen and (max-width: 610px) {
+@media (max-width: 610px) {
 
 	.about {
 		margin: .5% 10%;
