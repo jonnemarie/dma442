@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+
+<head>
+	<title>Lucy Cake Shop, 2 Locations in San Antonio</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="css/lightslider.css" />
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="js/lightslider.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('#carousel').lightSlider({
+            onSliderLoad: function() {
+                $('#carousel').removeClass('cS-hidden');
+            }  
+        });
+        $( ".cross" ).hide();
+		$( "#hamburger-menu" ).hide();
+		$( ".hamburger" ).click(function() {
+			$( "#hamburger-menu" ).slideToggle( "slow", function() {
+				$( ".hamburger" ).hide();
+				$( ".cross" ).show();
+			});
+		});
+
+		$( ".cross" ).click(function() {
+			$( "#hamburger-menu" ).slideToggle( "slow", function() {
+				$( ".cross" ).hide();
+				$( ".hamburger" ).show();
+			});
+		});
+	});
+	</script>
+</head>
+
+<body>
+
+	<div id="container">
+
+		<header>
+			<div id="header-top">
+				<div id="header-left">
+					<span id="welcome">Welcome to Lucy Cake Shop</span><br>
+					<button class="hamburger">&#9776;</button><button class="cross">&#735;</button>
+					<span id="signin"><a href="http://www.lucycakeshop.com/index.php?main_page=login">Sign In</a> | <a href="http://www.lucycakeshop.com/index.php?main_page=create_account">Create Account</a></span>
+				</div>
+				<div id="header-right">
+					<span id="tagline">Rush Orders always possible!</span><br>
+					<a class="call" href='tel:12106735965'>1 (210) 673-5965</a>
+				</div>
+			</div>
+		<div id="header-middle">
+			<a href="http://www.lucycakeshop.com/"><h1>Lucy's Cake Shop</h1></a>
+			<span id="signin2"><a href="http://www.lucycakeshop.com/index.php?main_page=login">Sign In</a> | <a href="http://www.lucycakeshop.com/index.php?main_page=create_account">Create Account</a></span>
+		</div>
+		<div id="header-bottom">
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="http://www.lucycakeshop.com/index.php?main_page=cakes">Cakes</a></li>
+					<li><a href="http://www.lucycakeshop.com/index.php?main_page=cakesize">Cakesize</a></li>
+					<li><a href="http://www.lucycakeshop.com/index.php?main_page=loc">Locations</a></li>
+					<li><a href="http://www.lucycakeshop.com/index.php?main_page=about_us">FAQ</a></li>
+					<li><a href="http://www.lucycakeshop.com/index.php?main_page=contact_us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="hamburger-menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="http://www.lucycakeshop.com/index.php?main_page=cakes">Cakes</a></li>
+				<li><a href="http://www.lucycakeshop.com/index.php?main_page=cakesize">Cakesize</a></li>
+				<li><a href="http://www.lucycakeshop.com/index.php?main_page=loc">Locations</a></li>
+				<li><a href="http://www.lucycakeshop.com/index.php?main_page=about_us">FAQ</a></li>
+				<li><a href="http://www.lucycakeshop.com/index.php?main_page=contact_us">Contact Us</a></li>
+			</ul>
+		</div>
+		</header>
+
+		<div class="searchHolder">
+			<span class="search">Search keywords here: <input type="text" id="search" name="search"></span>
+		</div>
+
+		<div id="promo">
+			<div class="carousel">          
+                <ul id="carousel" class="gallery cS-hidden">
+                    <li data-thumb="cakes.jpg"> 
+                        <img src="cakes.jpg" />
+                     </li>
+                    <li data-thumb="cakes2.jpg"> 
+                        <img src="cakes2.jpg" />
+                     </li>
+                     <li data-thumb="cakes.jpg"> 
+                        <img src="cakes.jpg" />
+                     </li>
+                     <li data-thumb="cakes2.jpg"> 
+                        <img src="cakes2.jpg" />
+                     </li>
+                     <li data-thumb="cakes.jpg"> 
+                        <img src="cakes.jpg" />
+                     </li>
+                </ul>
+	        </div>
+        </div>
+
+		<div class="about">
+			<p>Lucy's Cake Shop is a family owned and operated business which has been providing great tasting, beautiful cakes for over 40 years. Our reputation has been built on our elegant and delicious wedding cakes, as well as our diversity of different themes for special occasion cakes.
+			<br><br>
+			For years, San Antonio's major corporations, hotels, churches, military bases, and families have called on Lucy's Cake Shop to provide them with cakes for every special occasion. We offer great personalization on our cakes wether it's a special corporate logo, emblem, specific insignia, or party message. Our cakes have become the centerpieces of many San Antonio festivities.
+			<br><br>
+			Lucy's Cake Shop cakes have become a family tradition for many San Antonio residents. One wedding cake order leads to a follow up baby shower order and continues on to birthdays and graduation. Start your tradition with your first Lucy's Cake Shop cake order today!</p>
+		</div>
+
+		<div id="footer-wrapper">
+
+					<div id="footerInfo">
+						<ul>
+							<span class="menuTitle">Company Information</span>
+							<hr>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=about_us">FAQ</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=cakes">Cakes</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=cakesize">Cakesize</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=site_map">Site Map</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=unsubscribe">Newsletter Unsubscribe</a></li>
+						</ul>
+					</div>
+
+					<div id="custInfo">
+						<ul>
+							<span class="menuTitle">Customer Information</span>
+							<hr>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=contact_us">Contact Us</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=shippinginfo">Shipping &amp; Returns</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=privacy">Privacy Notice</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=conditions">Conditions of Use</a></li>
+							<li><a href="http://www.lucycakeshop.com/index.php?main_page=account">My Account</a></li>
+						</ul>
+					</div>
+		</div>
+
+		<footer>
+			<hr>
+			<div class="copyright">
+			Copyright &copy; 2017 <a href="http://www.lucycakeshop.com/index.php?main_page=index" target="_blank">Lucy Cake Shop</a>. 
+			Designed by <a href="http://www.mlconsult.net" target="_blank">ML Consulting</a>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

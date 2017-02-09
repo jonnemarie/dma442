@@ -1,0 +1,345 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffedfb;
+}
+
+@font-face {
+    font-family: brush;
+    src: url(alexbrushreg.ttf);
+}
+
+h1 {
+	font-family: brush;
+	color: black;
+	font-size: 4em;
+}
+
+#header-middle {
+	padding: 2px 0px;
+	text-align: center;
+	margin: 0px auto;
+	background-color: #ffedfb;
+}
+
+#header-middle a {
+	text-decoration: none;
+}
+
+li a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#header-search {
+	margin-left: 5px;
+}
+
+header {
+	padding: 5px 0px;
+	background: #e091d2;
+	color: #ffffff;
+}
+
+#header-top {
+	height: 40px;
+	padding: 5px 15px;
+}
+
+#header-left {
+	float: left;
+}
+
+#header-left a {
+	color: #ffffff;
+}
+
+#header-right {
+	float: right;
+	text-align: right;
+}
+
+#header-bottom {
+	height: 45px;
+}
+
+nav ul {
+	background-color: #e091d2;
+}
+
+nav {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0px 20px;
+	margin: 0;
+}
+
+nav li a {
+	color: white;
+	text-transform: uppercase;
+}
+
+#promo-img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+#promo {
+	text-align: center;
+	padding-bottom: 10px;
+	background-color: #ffedfb;
+}
+
+#promo ul {
+	list-style: none outside none;
+    padding-left: 0;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#promo ul li img {
+	max-width: 100vw;
+}
+
+.call {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.tagline {
+	font-style: italic;
+}
+
+#footer-wrapper {
+	display: inline-block;
+	background-color: #e091d2;
+	width: 100%;
+	text-align: center;
+}
+
+#footerInfo, #custInfo {
+	display: inline-block;
+	text-align: left;
+	padding: 0px 20px;
+}
+
+.menuTitle {
+	color: #faefff;
+}
+
+.about {
+	margin: .5% 20%;
+}
+
+.about p {
+	font-size: 1em;
+}
+
+.about p:first-letter {
+	font-family: brush;
+	font-size: 3em;
+	padding: 5px 8px;
+    float: left;
+    line-height: .2em;
+}
+
+footer {
+	background-color: #e091d2;
+}
+
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
+
+footer hr {
+	margin: 0;
+}
+
+.copyright {
+	padding: 10px;
+	font-size: .8em;
+}
+
+#search {
+	border-radius: 5px;
+	padding: 2px;
+	width: 75%;
+}
+
+.searchHolder {
+	width: 100%;
+	background-color: #ffffff;
+	padding: 10px;
+	margin-top: -20px;
+}
+
+.search {
+	background-color: white;
+	color: #9a9a9a;
+	font-size: .9em;
+	padding: 10px 0px 10px 0px;
+}
+
+#footer-wrapper a {
+	color: #000000;
+	font-size: .9em;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.hamburger {
+  background:none;
+  color:#ffffff;
+  border:0;
+  font-size:1.5em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+}
+
+.cross{
+  background:none;
+  color:#ffffff;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+}
+
+#signin2 {
+	display: none;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#signin2 a {
+	color: #ffffff;
+}
+
+#hamburger-menu {
+	display: none;
+	z-index:1000000; 
+	font-weight:bold;
+	font-size:0.8em; 
+	width:100%; 
+	background: #e091d2;
+	position:absolute;
+	top: 0;
+	text-align:center;
+}
+
+#hamburger-menu ul {
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none; 
+	list-style-image: none;
+}
+
+#hamburger-menu li {
+	display: block;   
+	padding:15px 0 15px 0; 
+	border-bottom:#1d1f20 1px solid;
+}
+
+#hamburger-menu li:hover {
+	background:#ffedfb; 
+	
+}
+
+#hamburger-menu ul li a { 
+	text-decoration:none;  
+	margin: 0px; 
+	color:#ffffff;
+}
+
+#hamburger-menu li:hover a {
+	color: #e091d2;
+}
+
+@media screen and (max-width: 740px) {
+
+	#welcome, #tagline, #header-bottom, #signin {
+		display: none;
+	}
+
+	.hamburger, #signin2 {
+		display: block;
+	}
+
+	#header-middle {
+		background-color: #e091d2;
+	}
+
+	#header-right {
+		margin-top: -20px;
+	}
+
+	h1 {
+		font-size: 3.5em;
+		margin: 0px;
+	}
+
+	.searchHolder {
+		text-align: center;
+	}
+
+	#search {
+		width: auto;
+	}
+
+}
+
+@media screen and (max-width: 610px) {
+
+	.about {
+		margin: .5% 10%;
+	}
+
+	#promo {
+		display: none;
+	}
+
+	#footer-wrapper {
+		background-color: #e091d2;
+		width: 100%;
+		text-align: center;
+	}
+
+	#footerInfo, #custInfo {
+		display: block;
+		margin: 0px auto;
+		text-align: center;
+		padding: 0;
+	}
+
+	#footer-wrapper ul {
+		padding: 0;
+	}
+
+}
+
+
